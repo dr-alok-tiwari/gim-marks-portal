@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Runtime database/data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Faculty/student source files — do not commit
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
